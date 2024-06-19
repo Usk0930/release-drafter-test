@@ -39,3 +39,6 @@ Release Drafterの動作確認用のリポジトリ
 ### owned-ec-frontend反映前の確認#4
 - featureタグが反映されること
 - タグなしがOthersに反映されること
+
+## 10
+- featureタグが反映されること
