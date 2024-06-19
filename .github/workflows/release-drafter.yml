@@ -21,7 +21,7 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
       - uses: actions/checkout@v4
         with:
-         ref: main
+         ref: ${{ github.event.pull_request.head.sha }}
       - uses: release-drafter/release-drafter@v6
         with:
           commitish: ${{ github.event.pull_request.head.sha }}
