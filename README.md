@@ -18,3 +18,6 @@ Release Drafterの動作確認用のリポジトリ
 - fixタグが反映されること
 - dependenciesタグが反映されること
 - タグなしがOthersに反映されること
+
+## 5
+- develop以外のブランチからmainへのPR作成時に差分が正しく反映されるか確認
