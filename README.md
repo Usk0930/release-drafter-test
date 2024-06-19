@@ -20,7 +20,7 @@ Release Drafterの動作確認用のリポジトリ
 - タグなしがOthersに反映されること
 
 ## 5
-- develop以外のブランチからmainへのPR作成時に差分が正しく反映されるか確認
+-
 
 ## 6
 ### owned-ec-frontend反映前の確認#2
@@ -36,5 +36,6 @@ Release Drafterの動作確認用のリポジトリ
 - developブランチからmainへのPR作成時に差分が正しく反映されるか確認
 
 ## 9
-### owned-ec-frontend反映前の確認#3
+### owned-ec-frontend反映前の確認#4
 - featureタグが反映されること
+- タグなしがOthersに反映されること
