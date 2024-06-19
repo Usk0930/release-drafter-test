@@ -35,14 +35,14 @@ jobs:
           VERSION=$(TZ=Asia/Tokyo date "+%Y.%m.%d")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      # Drafts your next Release notes as Pull Requests are merged into "main"
+      # Drafts your next Release notes as Pull Requests are merged into "develop"
       - uses: release-drafter/release-drafter@v6
         # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
         # with:
         #   config-name: my-config.yml
         #   disable-autolabeler: true
         with:
-          commitish: main
+          commitish: develop
           tag: ${{ env.VERSION }}
           name: ${{ env.VERSION }}
           version: ${{ env.VERSION }}
