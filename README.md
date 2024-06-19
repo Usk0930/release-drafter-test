@@ -26,3 +26,6 @@ Release Drafterの動作確認用のリポジトリ
 ### owned-ec-frontend反映前の確認#2
 - featureタグが反映されること
 - fixタグが反映されること
+
+## 7
+- developブランチからmainへのPR作成時に差分が正しく反映されるか確認
