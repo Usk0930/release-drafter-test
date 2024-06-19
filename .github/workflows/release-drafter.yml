@@ -19,6 +19,7 @@ jobs:
         run: |
           VERSION=$(TZ=Asia/Tokyo date "+%Y.%m.%d")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
+      - uses: actions/checkout@v2
       - uses: release-drafter/release-drafter@v6
         with:
           commitish: ${{ github.event.pull_request.head.sha }}
