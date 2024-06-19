@@ -42,3 +42,6 @@ Release Drafterの動作確認用のリポジトリ
 
 ## 10
 - featureタグが反映されること
+
+## 11
+- featureタグが反映されること
