@@ -11,3 +11,10 @@ Release Drafterの動作確認用のリポジトリ
 
 ## 3
 - 複数のPRによる差分が正しく反映されるか確認
+
+## 4
+### owned-ec-frontend反映前の最終確認
+- featureタグが反映されること
+- fixタグが反映されること
+- dependenciesタグが反映されること
+- タグなしがOthersに反映されること
