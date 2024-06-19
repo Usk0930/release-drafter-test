@@ -17,3 +17,4 @@ Release Drafterの動作確認用のリポジトリ
 - featureタグが反映されること
 - fixタグが反映されること
 - dependenciesタグが反映されること
+- タグなしがOthersに反映されること
