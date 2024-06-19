@@ -1,0 +1,16 @@
+categories:
+  - title: 'Features'
+    label: 'feature'
+  - title: 'Bug fixes'
+    label: 'fix'
+  - title: 'Dependency updates'
+    label: 'dependencies'
+  - title: 'Others'
+exclude-labels:
+  - 'release'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+template: |
+  ## Changes
+
+  $CHANGES
