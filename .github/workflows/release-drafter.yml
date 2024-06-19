@@ -21,7 +21,7 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
       - uses: release-drafter/release-drafter@v6
         with:
-          commitish: ${{ github.event.pull_request.head.sha }}
+          commitish: ${{ github.ref }}
           tag: ${{ env.VERSION }}
           name: ${{ env.VERSION }}
           version: ${{ env.VERSION }}
