@@ -25,3 +25,4 @@ Release Drafterの動作確認用のリポジトリ
 ## 6
 ### owned-ec-frontend反映前の確認#2
 - featureタグが反映されること
+- fixタグが反映されること
