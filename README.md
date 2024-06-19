@@ -5,3 +5,6 @@ Release Drafterの動作確認用のリポジトリ
 
 ## 1
 - owned-ec-frontendと同等の設定を追加
+
+## 2
+- 差分の参照先をPR作成時点のheadコミットとなるよう修正
