@@ -34,6 +34,7 @@ Release Drafterの動作確認用のリポジトリ
 
 ## 8
 - developブランチからmainへのPR作成時に差分が正しく反映されるか確認
+- 常にdevelopブランチの差分が反映されるか確認
 
 ## 9
 ### owned-ec-frontend反映前の確認#4
@@ -45,6 +46,10 @@ Release Drafterの動作確認用のリポジトリ
 
 ## 11
 - featureタグが反映されること
+
+## 12
+- featureタグが反映されること
+- タグなしがOthersに反映されること
 
 ## 13
 - develop以外のブランチからmainへのPR作成時に差分が正しく反映されるか確認
