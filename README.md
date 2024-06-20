@@ -50,3 +50,6 @@ Release Drafterの動作確認用のリポジトリ
 ## 12
 - featureタグが反映されること
 - タグなしがOthersに反映されること
+
+## 13
+- owned-ec-infra用にmainブランチにマージ時点で差分が正しく反映されるか確認
