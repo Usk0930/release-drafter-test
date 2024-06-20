@@ -1,9 +1,11 @@
+# https://github.com/release-drafter/release-drafter
+
 name: Release Drafter
 
 on:
-  pull_request:
-    types: [opened, reopened, synchronize]
-    branches: [main]
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -21,7 +23,7 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
       - uses: release-drafter/release-drafter@v6
         with:
-          commitish: develop
+          commitish: main
           tag: ${{ env.VERSION }}
           name: ${{ env.VERSION }}
           version: ${{ env.VERSION }}
