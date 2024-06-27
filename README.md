@@ -50,3 +50,6 @@ Release Drafterの動作確認用のリポジトリ
 ## 12
 - featureタグが反映されること
 - タグなしがOthersに反映されること
+
+## 14
+- Changesの見出しを削除
