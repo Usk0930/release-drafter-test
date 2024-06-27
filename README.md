@@ -51,5 +51,9 @@ Release Drafterの動作確認用のリポジトリ
 - featureタグが反映されること
 - タグなしがOthersに反映されること
 
+## 13
+- owned-ec-infra用にmainブランチにマージ時点で差分が正しく反映されるか確認
+- PRがDraft状態で追加でmainブランチにマージした際差分が正しく反映されるか確認
+
 ## 14
 - Changesの見出しを削除
